@@ -28,6 +28,21 @@ lazy.opts = {}
 lazy.setup({
 	{'folke/tokyonight.nvim'},
 	{'nvim-lualine/lualine.nvim'},
+	{'nvim-lua/plenary.nvim'},       -- Dependancy
+	{'nvim-lua/popup.nvim'},         -- Dependancy
+	{'nvim-tree/nvim-web-devicons'}, -- Dependancy for neo-tree
+	{'MunifTanjim/nui.nvim'},        -- Dependancy for neo-tree
+	{'nvim-neo-tree/neo-tree.nvim'}, -- :Neotree to use
+	{'akinsho/toggleterm.nvim', version = "*", config = true},
+	{'dense-analysis/neural'},
+	{'neovim/nvim-lspconfig'},
+	{'hrsh7th/nvim-cmp'},
+	{'hrsh7th/cmp-buffer'},
+	{'hrsh7th/cmp-path'},
+	{'hrsh7th/cmp-cmdline'},
+	{'saadparwaiz1/cmp_luasnip'},
+	{'L3MON4D3/LuaSnip'},
+	{'rafamadriz/friendly-snippets'},
 })
 
 require('lualine').setup({
@@ -37,3 +52,5 @@ require('lualine').setup({
     component_separators = ''
   }
 })
+
+
