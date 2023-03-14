@@ -10,3 +10,5 @@ vim.g.vimtex_quickfix_ignore_filters = {
   'Overfull',
   'Negative'
 }
+vim.cmd('autocmd FileType tex setlocal conceallevel=1')
+vim.g.vimtex_conceal='abdmg'
